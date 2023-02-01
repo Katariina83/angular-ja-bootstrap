@@ -1,33 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+
 html {
     font-size: 62.5%;
+    margin: 1rem;
 }
 
 body {
+    background-color:cornflowerblue;
+}
+
+header {
+    font-size: 1.5rem;
+    color: black;
+    margin: 1rem -1rem;
+}
+
+h2 {
     
 }
+
+.custom-cards {
+    flex-wrap: nowrap;
+}
+
+a.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+}
 .d-flex {
-    margin-top: 2rem;
-    margin: 2rem;
+
     font-size: 1.5rem;
 }
 .py-3 {
-    float: left;
-    margin-top: 3rem;
+    
 }
 
 h1 {
-    margin: 2rem;
-    margin-left:5rem;
-    padding: 2rem;
+   
+    padding: 1rem;
     font-weight: bold;
     border: lightgray dashed 1px;
 }
 
-h2 {
-    font-weight: bold;
-    margin: 1rem;
-}
+
+
 .nav-pills .nav-link.active{
     background-color: black;
 }
