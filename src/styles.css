@@ -14,12 +14,20 @@ header {
     margin: 1rem -1rem;
 }
 
-h2 {
-    
+#kirjakuva {
+    width: 100%;
+    height: auto;  
 }
 
 .custom-cards {
+    display: block;
     flex-wrap: nowrap;
+}
+
+.quote-box {
+    padding: 2rem;
+    max-height: 20%;
+    
 }
 
 a.nav-link {
@@ -27,24 +35,31 @@ a.nav-link {
     color: black;
     font-weight: bold;
 }
-.d-flex {
 
+.d-flex {
     font-size: 1.5rem;
-}
-.py-3 {
-    
 }
 
 h1 {
-   
     padding: 1rem;
     font-weight: bold;
     border: lightgray dashed 1px;
 }
 
-
-
 .nav-pills .nav-link.active{
     background-color: black;
 }
 
+/*tablet rules*/
+@media screen and (min-width: 768px) {
+    .nav-pills {
+        margin-left: -1rem;
+    }
+}
+
+/*desktop rules*/
+@media screen and (min-width: 1024px) {
+    .nav-pills {
+        margin-left: -2rem;
+    }
+}
